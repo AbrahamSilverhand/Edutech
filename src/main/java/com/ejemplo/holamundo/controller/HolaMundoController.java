@@ -51,7 +51,7 @@ public class HolaMundoController {
         productos.add("c");
 
         if(productos.contains(l)){
-            return "Producto Encontrado!:";
+            return "!Producto Encontrado!:";
         }else{
             return "Producto no encontrado - Error 404";
         }
